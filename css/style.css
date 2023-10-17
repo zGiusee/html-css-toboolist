@@ -45,7 +45,7 @@ body{
     
 }
 
-.task-container{
+.button-task-container{
     margin-top: 5%;
 
 }
@@ -94,14 +94,15 @@ font-size: 30px;
 }
 
 .done-task{
-        
-    /* da finire */
-    padding: 5px;
+    list-style-type: "✓";
+    padding: 10px;
     margin: 15px 0px;
 }
 
 .non-done-task{
     margin: 15px 0px;
+    padding: 10px;
+    list-style-type: "⤫";
 }
 
 .task-fonts{
