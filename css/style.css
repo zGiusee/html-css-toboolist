@@ -94,15 +94,16 @@ font-size: 30px;
 }
 
 .done-task{
-    list-style-type: "✓";
+    list-style: none;
     padding: 10px;
     margin: 15px 0px;
+    list-style-type: "✓";
 }
 
 .non-done-task{
+    list-style-type: "Χ";
     margin: 15px 0px;
     padding: 10px;
-    list-style-type: "⤫";
 }
 
 .task-fonts{
