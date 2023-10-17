@@ -92,9 +92,14 @@ font-size: 30px;
 
 
 .done-task{
-    list-style-type: symbols(&#10004;);     
+        
     /* da finire */
     padding: 5px;
+    margin: 15px 0px;
+}
+
+.non-done-task{
+    margin: 15px 0px;
 }
 
 .task-fonts{
@@ -102,6 +107,7 @@ font-size: 30px;
     font-family: 'Gabarito', sans-serif;
     color: rgb(49, 49, 49);
     font-size: 25px;
+    
 }
 
 .taskbox{
@@ -113,6 +119,7 @@ font-size: 30px;
     color: white;
     border-radius: 10px;
     font-size: 12px;
+
 }
 
 /* COLORI TASKBOX */
