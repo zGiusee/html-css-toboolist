@@ -33,11 +33,11 @@ body{
 /* MAIN */
 
 .main-container{
-
     margin: 0 auto;
     background-color: white;
     width: 70%;
     border-radius: 10px;
+    margin-bottom: 10%;
 }
 
 .hr{
@@ -97,13 +97,15 @@ font-size: 30px;
     list-style: none;
     padding: 10px;
     margin: 15px 0px;
-    list-style-type: "✓";
+    list-style: none;
+    vertical-align: middle;
 }
 
 .non-done-task{
-    list-style-type: "Χ";
+    list-style: none;
     margin: 15px 0px;
     padding: 10px;
+    vertical-align: middle;
 }
 
 .task-fonts{
@@ -125,6 +127,28 @@ font-size: 30px;
     font-size: 12px;
 
 }
+
+/* CHECKS AND X */
+
+.x{
+    color: red;
+    border: solid;
+    border-radius: 100%;
+    padding: 5px;
+    margin: 5px;
+    vertical-align: middle;
+}
+
+.check{
+    color: green;
+    border: solid;
+    border-radius: 100%;
+    padding: 5px;
+    margin: 5px;
+    vertical-align: middle;
+    
+}
+
 
 /* COLORI TASKBOX */
 
