@@ -33,21 +33,14 @@ body{
 /* MAIN */
 
 .main-container{
-    margin: 0 auto;
+    margin: 5% auto;
     background-color: white;
-    width: 70%;
+    max-width: 70%;
     border-radius: 10px;
-    margin-bottom: 10%;
 }
 
 .hr{
     color: rgb(241, 238, 238);
-    
-}
-
-.button-task-container{
-    margin-top: 5%;
-
 }
 
 /* BUTTONS */
@@ -63,7 +56,7 @@ body{
 }
 
 .section-button{
-    background-color: white;
+    background-color: transparent;
     font-weight: 1000;
     color: rgb(187, 187, 187);
     padding: 7px 10px;
@@ -97,7 +90,6 @@ font-size: 30px;
     list-style: none;
     padding: 10px;
     margin: 15px 0px;
-    list-style: none;
     vertical-align: middle;
 }
 
@@ -132,7 +124,7 @@ font-size: 30px;
 
 .x{
     color: red;
-    border: solid;
+    border: 1px solid;
     border-radius: 100%;
     padding: 5px;
     margin: 5px;
@@ -141,7 +133,7 @@ font-size: 30px;
 
 .check{
     color: green;
-    border: solid;
+    border: 1px solid;
     border-radius: 100%;
     padding: 5px;
     margin: 5px;
